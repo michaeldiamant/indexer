@@ -9,6 +9,6 @@ datasources:
     # Access mode - proxy (server in the UI) or direct (browser in the UI).
     access: proxy
     httpMethod: POST
-    url: prometheus:9090
+    url: http://prometheus:9090
     version: 1
     editable: false

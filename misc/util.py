@@ -65,7 +65,7 @@ def _getio(p, od, ed):
             ed = maybedecode(p.stderr.read())
         except:
             logger.error('subcomand err', exc_info=True)
-    return od, ed
+    return od,
 
 def xrun(cmd, *args, **kwargs):
     timeout = kwargs.pop('timeout', None)
